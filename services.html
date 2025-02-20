@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Cyrix Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-section {
+            position: relative;
+            height: 50vh;
+            background-color: rgb(0, 255, 98);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            margin: 20px 0;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            animation: heroAnimation 5s infinite alternate;
+        }
+
+        .hero-section:hover {
+            background-color: rgb(71, 45, 45);
+            transform: translateY(-10px);
+        }
+
+        @keyframes heroAnimation {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.05);
+            }
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Untitled design (23).png" alt="Cyrix Technologies Logo" class="logo">
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="services.html" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="graphic-design.html">Graphic Designing</a>
+                        <a href="web-development.html">Web Development</a>
+                        <a href="online-training.html">Online Training</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Design Services</h2>
+                <ul>
+                    <li>Print Designs</li>
+                    <li>Poster Designs</li>
+                    <li>Flyers</li>
+                    <li>Brochures</li>
+                    <li>Company Profiles</li>
+                    <li>Product Design</li>
+                    <li>Social Media Graphics</li>
+                    <li>Ads Creation</li>
+                    <li>Custom Designs</li>
+                    <li>Publications</li>
+                    <li>Video Editing</li>
+                    <li>Among Others</li>
+                </ul>
+            </div>
+        </section>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Training Services</h2>
+                <ul>
+                    <li>Graphic Designing Classes</li>
+                    <li>Web Development Classes in HTML, CSS, and JavaScript</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
