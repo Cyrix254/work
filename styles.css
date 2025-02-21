@@ -20,13 +20,6 @@ header {
     position: relative;
 }
 
-header .logo {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 150px;
-    width: 150px;
-}
 
 header h1 {
     margin: 0;
